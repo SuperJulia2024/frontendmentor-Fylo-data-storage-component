@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu-container">
+        <img src="./images/logo.svg" alt="Logo" />
+        <div class="icons-container">
+          <div class="icon-container">
+            <img id="icon-document" src="./images/icon-document.svg" alt="Document icon" />
+          </div>
+          <div class="icon-container">
+            <img id="icon-folder" src="./images/icon-folder.svg" alt="Document icon" />
+          </div>
+          <div class="icon-container">
+            <img id="icon-upload" src="./images/icon-upload.svg" alt="Document icon" />
+          </div>
+        </div>
+      </div>
+      <div class="info-used-storage-container">
+        <p>You’ve used <span id="data-bold">815 GB </span>of your storage</p>
+        <div class="used-storage-bar">
+          <div class="used-storage-bar-outer">
+            <div class="used-storage-bar-inner">
+              <div class="circle"></div>
+            </div>
+            
+          </div>
+          <div class="thresholds">
+              <div class="min-value">0 GB</div>
+              <div class="max-value">1000 GB</div>
+            </div>
+        </div>
+      </div>
+      <div class="used-space-information">
+        <div class="used-space-data">185</div>
+        <div class="used-space-gb-left">GB Left</div>
+      </div>
+      <div class="used-space-gb-left-triangle-down"></div>
+    </div>
+  </body>
+</html>

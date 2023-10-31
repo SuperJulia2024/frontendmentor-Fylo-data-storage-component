@@ -1,0 +1,191 @@
+/* Colors  */
+/* Gradient */
+/* Weights: 400, 700 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/bg-mobile.png);
+  background-size: 100%;
+}
+
+.container {
+  width: 330px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-container {
+  background-color: hsl(228, 56%, 26%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  border-radius: 10px;
+  border-top-right-radius: 110px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.menu-container > img {
+  margin-bottom: 35px;
+}
+.menu-container .icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.menu-container .icon-container {
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  padding: 15px 0 0 13px;
+}
+.menu-container .icon-container #icon-document {
+  margin-left: 3px;
+  margin-top: -2px;
+}
+
+.info-used-storage-container {
+  background-color: hsl(228, 56%, 26%);
+  padding: 30px 30px 60px 30px;
+  border-radius: 10px;
+  width: 100%;
+}
+.info-used-storage-container p {
+  color: hsl(243, 100%, 93%);
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.info-used-storage-container p span {
+  font-weight: 700;
+}
+.info-used-storage-container .used-storage-bar .used-storage-bar-outer {
+  background-color: hsl(229, 57%, 11%);
+  height: 21px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.info-used-storage-container .used-storage-bar .used-storage-bar-outer .used-storage-bar-inner {
+  background: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  height: 15px;
+  border-radius: 10px;
+  width: 193px;
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
+.info-used-storage-container .used-storage-bar .used-storage-bar-outer .used-storage-bar-inner .circle {
+  background-color: white;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  position: relative;
+  left: 180px;
+  top: 2px;
+}
+.info-used-storage-container .used-storage-bar .thresholds {
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  align-items: center;
+  color: hsl(243, 100%, 93%);
+  font-weight: 700;
+}
+
+.used-space-information {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding: 10px 25px;
+  border-radius: 10px;
+  position: relative;
+  top: -35px;
+  left: 0px;
+}
+.used-space-information .used-space-data {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.used-space-information .used-space-gb-left {
+  text-transform: uppercase;
+  margin-left: 10px;
+  font-weight: 700;
+  color: hsl(229, 7%, 55%);
+  white-space: nowrap;
+}
+
+@media (min-width: 960px) {
+  body {
+    background-image: url(../images/bg-desktop.png);
+    background-color: hsl(229, 57%, 11%);
+    background-position: top 100% left 0%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+    margin-left: 250px;
+  }
+  .container {
+    width: 1200px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    gap: 30px;
+  }
+  .menu-container {
+    width: 70%;
+  }
+  .info-used-storage-container {
+    margin-top: 45px;
+    padding-bottom: 30px;
+  }
+  .info-used-storage-container p {
+    text-align: left;
+  }
+  .info-used-storage-container .used-storage-bar .used-storage-bar-outer .used-storage-bar-inner {
+    width: 350px;
+  }
+  .info-used-storage-container .used-storage-bar .used-storage-bar-outer .used-storage-bar-inner .circle {
+    left: 337px;
+    top: 2px;
+  }
+  .used-space-information {
+    top: -65px;
+    left: -255px;
+    padding: 10px 25px;
+  }
+  .used-space-gb-left-triangle-down {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid white;
+    position: relative;
+    top: -31px;
+    left: -305px;
+  }
+}/*# sourceMappingURL=styles.css.map */
