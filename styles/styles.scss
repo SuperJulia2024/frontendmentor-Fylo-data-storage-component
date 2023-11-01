@@ -30,8 +30,9 @@ body {
   justify-content: center;
   align-items: center;
   background-image: url(../images/bg-mobile.png);
-  background-size: 100%;
-
+  background-color: $very-dark-blue;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -168,9 +169,8 @@ body {
 @media (min-width: 960px) {
   body {
     background-image: url(../images/bg-desktop.png);
-    background-color: $very-dark-blue;
     background-position: top 100% left 0%;
-    background-repeat: no-repeat;
+    background-size: 100% 50%;
     height: 100vh;
     align-items: center;
     margin-left: 250px;
