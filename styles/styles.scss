@@ -200,10 +200,9 @@ body {
 
     .used-storage-bar {
       .used-storage-bar-outer {
-      
         .used-storage-bar-inner {
           width: 350px;
-          
+
           .circle {
             left: 337px;
             top: 2px;
@@ -223,14 +222,14 @@ body {
   }
 
   .used-space-gb-left-triangle-down {
-  width: 0; 
-  height: 0; 
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent; 
-  
-  border-right:20px solid white; 
-  position: relative;
-  top: -31px;
-  left: -305px;
-}
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+
+    border-right: 20px solid white;
+    position: relative;
+    top: -31px;
+    left: -305px;
+  }
 }
