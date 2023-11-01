@@ -72,14 +72,15 @@ body {
   border-radius: 10px;
   width: 100%;
 }
-.info-used-storage-container p {
+.info-used-storage-container h1 {
   color: hsl(243, 100%, 93%);
   font-weight: 400;
   margin-bottom: 10px;
   text-align: center;
   margin-bottom: 15px;
+  font-size: 1rem;
 }
-.info-used-storage-container p span {
+.info-used-storage-container h1 span {
   font-weight: 700;
 }
 .info-used-storage-container .used-storage-bar .used-storage-bar-outer {
@@ -164,7 +165,7 @@ body {
     margin-top: 45px;
     padding-bottom: 30px;
   }
-  .info-used-storage-container p {
+  .info-used-storage-container h1 {
     text-align: left;
   }
   .info-used-storage-container .used-storage-bar .used-storage-bar-outer .used-storage-bar-inner {
